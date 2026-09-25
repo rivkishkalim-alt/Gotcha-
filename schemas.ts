@@ -6,7 +6,7 @@ const prankTarget = {
     {
       name: 'fullName',
       title: 'Full Name',
-      type: 'string', // משתנה מסוג טקסט שורה אחת
+      type: 'string',
     },
     {
       name: 'ageAndBirth',
@@ -16,12 +16,12 @@ const prankTarget = {
     {
       name: 'currentSituation',
       title: 'Current Live Situation',
-      type: 'string', // המשתמש יקליד מה החבר עושה ברגע זה
+      type: 'string',
     },
     {
       name: 'snifInfo',
       title: 'Social Circle / Inside Info',
-      type: 'text', // תיבת טקסט גדולה לסיפורים וסודות
+      type: 'text',
     },
     {
       name: 'futurePlans',
@@ -31,7 +31,7 @@ const prankTarget = {
     {
       name: 'embarrassingImage1',
       title: 'First Throwback Photo',
-      type: 'image', // משתנה מסוג קובץ תמונה
+      type: 'image',
       options: { hotspot: true },
     },
     {
